@@ -1,0 +1,38 @@
+mat-card{
+    width: 1050px;
+    height: 650px;
+    background:linear-gradient(160deg,rgb(76, 31, 182) 60%,rgb(72, 72, 133) 40%,rgb(55, 55, 59) 30%);
+}
+body{
+    background-image: url('../../assets/images/background.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img{
+    width: 400px;
+    height: 600px;
+}
+#innerdiv{
+    width: 430px;
+}
+#redirect{
+    width: 400px;
+}
+#login{
+    width: 55px;
+    height: 30px;
+    font-size: 20px;
+    background:transparent;
+    color: rgb(244, 244, 248);
+    text-decoration: underline;
+    padding-left: 0px;
+  }
+  p{
+      margin-top: 10px;
+      color: bisque;
+      font-size: 16px;
+  }
+  ::ng-deep .mat-form-field-appearance-fill
+  .mat-form-field-flex{
+      background: aquamarine !important;
+  }

@@ -7,7 +7,55 @@
     <title>Document</title>
 </head>
 <body fxLayout="row" fxLayoutAlign="center center">
-    <p>register works!</p>
-    <button mat-raised-button color="primary" (click)="openLogin()">Login</button>
+    <mat-card fxLayout="row">
+        <div fxLayout="row" fxLayoutAlign="center center" fxFlex="45">
+            <img src="../../assets/images/register.webp" alt="img">
+        </div>
+        <div fxLayout="column" fxLayoutAlign="center center" fxFlex="55" fxLayoutGap="10px">
+            <div fxLayout="column" id="innerdiv">
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Password</mat-label>
+                    <input matInput  type="password">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Confirm Password</mat-label>
+                    <input matInput  type="password">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Username</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayoutGap="30px">
+                <mat-form-field appearance="fill">
+                    <mat-label>First Name</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+            </div>
+            <div fxLayout="row" fxLayoutGap="30px">
+                <mat-form-field appearance="fill">
+                    <mat-label>Country</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Phone No</mat-label>
+                    <input matInput  type="text">
+                </mat-form-field>
+            </div>
+            <button mat-raised-button color="accent">Register</button>
+            <div id="redirect" fxLayout="row" fxLayoutAlign="none start" fxLayoutGap="10px">
+                <p>Already have an account?</p>
+                <button id="login" mat-button (click)="openLogin()">Login</button>
+            </div>
+        </div>
+    </mat-card>
 </body>
 </html>

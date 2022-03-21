@@ -29,7 +29,11 @@
                 <mat-icon matPrefix>lock</mat-icon>
                 <input matInput type="password" >
             </mat-form-field>
-            <button mat-raised-button >Login</button>
+            <button mat-raised-button>Login</button>
+            <div>
+                <span>Create an account?</span>
+                <button id="register" mat-raised-button (click)="openRegister()">Sign Up</button>
+            </div>
         </div>
     </mat-card>
 </body>
