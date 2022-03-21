@@ -1,5 +1,8 @@
 mat-card{
-    background-color: burlywood;
+    background-color: transparent;
     width: 92vw;
     height: 90vh;
+}
+body{
+    background-image: url('../../assets/images/background.webp');
 }

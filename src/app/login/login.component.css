@@ -1,0 +1,45 @@
+body{
+    background-image: url('../../assets/images/background.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+mat-card{
+    width:400px;
+    height:500px;
+    /* background: linear-gradient(150deg, rgb(240, 149, 252) 20%, rgb(126, 182, 235) 35%, rgb(19, 98, 163) 100%); */
+    background:rgb(20, 19, 19);
+    margin-left: 45%;
+    z-index: 30px;
+}
+#groupicon{
+    font-size: 150px;
+    margin-left: 31%;
+    color:rgb(35, 201, 201);
+}
+#chenna{
+    margin-top: 30px;
+}
+::ng-deep .mat-form-field-outline-start {
+    border-radius: 28px 0 0 28px !important;
+    min-width: 28px !important;
+  }
+  
+  ::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 28px 28px 0 !important;
+  }
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: white;
+    border-radius: 28px 28px 28px 28px !important;
+  }
+  button{
+    background-color:rgb(35, 201, 201);
+      color: white;
+      font-size: 30px;
+      width: 150px;
+      height: 50px;
+  }
+  mat-icon{
+    color:rgb(35, 201, 201);
+  }
+  
+  

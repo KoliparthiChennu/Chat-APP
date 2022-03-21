@@ -7,8 +7,30 @@
     <title>Document</title>
 </head>
 <body fxLayout="row" fxLayoutAlign="center center">
-    <p>login works!</p>
+    <!-- <p>login works!</p>
     <button mat-raised-button color="primary" (click)="openRegister()">signup</button>
-    <button mat-raised-button color="accent" (click)="login()">Login</button>
+    <button mat-raised-button color="accent" (click)="login()">Login</button> -->
+    <mat-card fxLayout="column" class="mat-elevation-z24">
+        <div fxLayout="row" fxFlex="30" id="chenna">
+            <mat-icon id="groupicon">group</mat-icon>
+        </div>
+        <div fxLayout="column" fxLayoutAlign="start center" fxLayoutGap="25px" fxFlex="70">
+            <mat-form-field appearance="outline" color="accent">
+                <mat-label>
+                    User Name:
+                </mat-label>
+                <mat-icon matPrefix>account_circle</mat-icon>
+                <input matInput type="text" >
+            </mat-form-field>
+            <mat-form-field appearance="outline" color="accent">
+                <mat-label>
+                    Password:   
+                </mat-label>
+                <mat-icon matPrefix>lock</mat-icon>
+                <input matInput type="password" >
+            </mat-form-field>
+            <button mat-raised-button >Login</button>
+        </div>
+    </mat-card>
 </body>
 </html>
