@@ -1,0 +1,42 @@
+mat-card{
+    width:500px;
+    height:600px;
+    background: linear-gradient(150deg, rgb(240, 149, 252) 20%, rgb(126, 182, 235) 35%, rgb(19, 98, 163) 100%);
+}
+#groupicon{
+    font-size: 140px;
+    margin-left: 35%;
+    color:purple
+}
+#chenna{
+    margin-top: 30px;
+}
+::ng-deep .mat-form-field-outline-start {
+    border-radius: 28px 0 0 28px !important;
+    min-width: 28px !important;
+  }
+  
+  ::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 28px 28px 0 !important;
+  }
+  input{
+      background-color:white ;
+  }
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: white;
+    border-radius: 28px 28px 28px 28px !important;
+  }
+  button{
+      background-color: purple;
+      color: white;
+      font-size: 30px;
+      width: 150px;
+      height: 50px;
+  }
+  mat-icon{
+      color: purple;
+  }
+  body{
+    background: linear-gradient(120deg, rgb(194, 185, 196) 30%, rgb(1, 17, 32) 80%, rgb(0, 6, 10) 30%);
+}
+  
